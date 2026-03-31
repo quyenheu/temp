@@ -1,0 +1,23 @@
+[BaseOS]
+name=CentOS-8 - BaseOS
+baseurl=http://vault.centos.org/8.5.2111/BaseOS/x86_64/os/
+enabled=1
+gpgcheck=0
+
+[AppStream]
+name=CentOS-8 - AppStream
+baseurl=http://vault.centos.org/8.5.2111/AppStream/x86_64/os/
+enabled=1
+gpgcheck=0
+
+[extras]
+name=CentOS-8 - Extras
+baseurl=http://vault.centos.org/8.5.2111/extras/x86_64/os/
+enabled=1
+gpgcheck=0
+
+[PowerTools]
+name=CentOS-8 - PowerTools
+baseurl=http://vault.centos.org/8.5.2111/PowerTools/x86_64/os/
+enabled=1
+gpgcheck=0
